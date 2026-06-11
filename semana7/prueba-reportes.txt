@@ -1,0 +1,15 @@
+Cuando se envía un reporte mediante la ruta POST /reportes, l
+a información queda almacenada temporalmente en el array reportes.
+
+Al consultar la ruta GET /reportes, el servidor devuelve todos
+ los reportes registrados hasta el momento en formato JSON.
+
+Ejemplo de respuesta:
+
+[
+{
+"id": 1,
+"tipo": "Infraestructura",
+"descripcion": "Daño en alumbrado público"
+}
+]
